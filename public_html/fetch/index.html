@@ -7,7 +7,7 @@
    <input id="inp" type="text" />
    <button id="bt" onclick="task();"> click </button>
    <script>
-   let input = document.getElementById('inp');
+  const input = document.getElementById('inp');
      async function task(){
        let IN=await fetch(input.value);
        input.value='';
